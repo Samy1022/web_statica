@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #d35400;
+}
+.section-title {
+  font-size: 1.3em;
+  margin-top: 30px;
+  border-bottom: 2px solid #d35400;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.info div {
+  width: 48%;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+.contact-info,
+.education,
+.experience,
+.skills {
+  margin-bottom: 30px;
+}
+.highlight {
+  font-weight: bold;
+  color: #d35400;
+}
+
+.photo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-container img {
+  max-width: 200px;
+  border: 3px solid #d35400;
+  border-radius: 5px;
+}
